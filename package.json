@@ -1,0 +1,18 @@
+{
+  "name": "bsingleton-ascii-art",
+  "main": "./lib/bsingleton-ascii-art",
+  "version": "0.1.0",
+  "description": "My implementation of the ASCII art example package from the Atom Flight manual, https://flight-manual.atom.io/hacking-atom/sections/package-modifying-text",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "bsingleton-ascii-art:convert"
+  },
+  "repository": "https://github.com/atom/bsingleton-ascii-art",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "figlet": "1.5.2"
+  }
+}
